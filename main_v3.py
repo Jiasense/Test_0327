@@ -68,7 +68,7 @@ def load_case_from_json(json_file, case_id):
 
 if __name__ == '__main__':
     json_file = 'merged_output_ztdata_t_modi_0311.json'  # json文件名
-    case_id = int(2)
+    case_id = int(3)
     
     try:
         case_data = load_case_from_json(json_file, case_id)
